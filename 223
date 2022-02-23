@@ -1,0 +1,15 @@
+int Add(int x, int y)
+{
+	int z = 0;
+	z = x + y;
+	return z;
+}
+#include <stdio.h>
+int main()
+{
+	int a = 10;
+	int b = 20;
+	int sum = Add(a, b);
+	printf("%d\n", sum);
+	return 0;
+}
